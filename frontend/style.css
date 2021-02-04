@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: #EBFCFF;
+	font-family: 'Roboto';
+}
+
+
+.logoutonly {
+	display: none;
+}
+
+#twitterloginimage {
+	display: inline-block;
+
+}
+
+
+#btnContainer {
+	display: block;
+	text-align: center;
+	margin-bottom: 3.7em;
+}
+
+.btn {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	padding: 8px 18px;
+	background-color: rgb(29, 161, 242);
+	font-weight: 700;
+	font-size: 1.3rem;
+	letter-spacing: 1.1px;
+	color: white;
+	border-radius: 10px;
+	display: inline-block;
+	text-align: center;
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;	
+
+}
+
+.btn:hover {
+	background-color:rgb(0, 109, 191);
+}
+
+.btn-space {
+	margin: 0 20px;
+}
+
+
+
+
+.popup {
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 19px;
+  }
+  
+  .popup span {
+    font-size: 15px;
+    font-weight: 470;
+    line-height: 9px;
+  }
+  
+  #legend {
+      font-family: Arial, sans-serif;
+      background: #fff;
+      padding: 10px;
+      margin: 10px;
+      border: 3px solid #000;
+  }
+  
+  .icon {
+      padding: 6px 0;
+      font-size: 14px;
+      font-weight: 540;
+  }
+  
+  #no-location {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      margin: 10px;
+      border: 3px solid #000;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #map {
+      position: relative;
+      padding-bottom: 75%;
+      height: 30.5em;
+      overflow: hidden;
+  }
+  #map iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  
+  
+  #mapContainer {
+      margin-top: 130px;
+  }
+  
+  
+  #mapDescriptions {
+      position: relative;
+      height: 120px;
+  }
+  
+  
+  
+  #currentDisplay {
+      position: absolute;
+      top: 20px;
+      left: 50px;
+      color: #364954;
+      letter-spacing: 1px;
+  }
+  
+  #headingOne {
+      position: absolute;
+      top: 60px;
+      left: 51px;
+      color: #84B1CB;
+      letter-spacing: 0.3px;
+      font-size: 0.8em;
+  
+  
+  }
+  
+
+  #mainDivContainer {
+	text-align: center;
+}
+
+
+#mainDiv {
+	position: relative;
+	width: 16em;
+	height: 18em;
+	display: inline-block;
+	padding-left: -2em;
+	padding-right: 19em;
+}
+
+
+#userImg {
+	border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+	position: absolute;
+	top: 40px;
+	left: 200px;
+    border: 4.5px solid rgb(102, 117, 127);	
+}
+
+#profileImg {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;	
+}
+
+
+#userInfo {
+	position: absolute;
+	top: 54px;
+	left: 80px;
+	text-align: center;	
+}
+
+#userNames {
+	position: absolute;
+	top: 200px;
+	left: 220px;
+	line-height: 5px;
+}
+
+
+.countHeader {
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 1.3px;
+	font-size: 0.9em;
+	color: rgb(102, 117, 127);
+}
+
+
+
+.countHeading {
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #364954;
+}
+
+
+#nameHeading {
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #364954;
+	letter-spacing: 1px;	
+	color: #364954;
+}
+
+#screenNameHeading {
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #364954;
+	letter-spacing: 1px;	
+	color: rgb(102, 117, 127);
+}
+
+
+#locationsContainer {
+	position: relative;
+	margin-top: 70px;
+	border: 2px solid #897286;
+	width: 100%;
+	height: 600px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+
+#yes-locations {
+	width: 50%;
+	text-align: center;
+}
+
+#no-locations {
+	width: 50%;
+	text-align: center;
+}
+
+#yes-locationsHeading {
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	color: #00A2F0;
+
+
+}
+
+#no-locationsHeading {
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	color: #00A2F0;
+
+
+}
+
+
+#ulYes {
+	text-align: left;
+	list-style-type: none;
+	list-style: none;
+
+}
+
+#ulNo {
+	text-align: left;
+	list-style-type: none;
+	list-style: none;
+}
+
+.followInfo {
+	color: #4E616D;
+	font-size: 0.9em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 0.7em;
+}
+
+#searchContainer {
+	margin-top: 4em;
+	text-align: center;
+}
+
+#inputLabel {
+	display: inline;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	color: rgb(72,87,97);
+
+}
+
+input[type="text"] {
+	margin-top: 25px;
+	padding: 10px;
+	border: 3px solid #B7D3E4;
+	font-size: 20px;
+}
+input[type="submit"] {
+	padding: 8px 15px;
+	border: 1px solid rgb(29, 161, 242);
+	background-color: rgb(29, 161, 242);
+	border-radius: 2.5px;
+	color: white;
+	font-weight: 600;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+
+	margin-top: 5px;
+	margin-left: 3px;
+
+
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+
+}
+
+input[type="submit"]:hover {
+	cursor: pointer;
+	background-color:rgb(0, 109, 191);
+	border: 1px solid rgb(0, 109, 191);
+
+}
+
+#atSymbol {
+	margin-left: 20px;
+	font-size: 20px;
+	display: inline-block;
+	padding-right: 5px;
+	font-weight: 500;
+}	
+
+
+@media screen and (max-width: 990px) {
+
+
+
+	#yes-locations {
+		width: 50%;
+		text-align: center;
+	}
+
+	#no-locations {
+		width: 50%;
+		text-align: center;
+	}
+
+	#yes-locationsHeading {
+		font-size: 1.2em;
+		font-weight: 600;
+		letter-spacing: 1.6px;
+		color: #00A2F0;
+
+
+	}
+
+	#no-locationsHeading {
+		font-size: 1.2em;
+		font-weight: 600;
+		letter-spacing: 1.6px;
+		color: #00A2F0;
+
+
+	}
+
+	.followInfo {
+		color: #4E616D;
+		font-size: 0.72em;
+		font-weight: 600;
+		letter-spacing: 1px;
+		margin-bottom: 0.9em;
+	}
+
+}
+
+
+@media screen and (max-width: 720px) {
+	.btn-space {
+		margin: 0 20px;
+	}
+
+	#btnContainer {
+		display: block;
+		text-align: center;
+		margin-bottom: 3.7em;
+	}
+
+	.btn {
+		font-family: 'Roboto', sans-serif;
+		text-decoration: none;
+		padding: 6.67px 15px;
+		font-weight: 700;
+		font-size: 1.1rem;
+		letter-spacing: 0.9px;
+		display: inline-block;
+
+	}
+}
+@media screen and (max-width: 592px) {
+	#mainDiv {
+		width: 10em;
+	}	
+}
+
+
+@media screen and (max-width: 470px) {
+	
+
+
+	.btn-space {
+		margin: 0 10px;
+	}
+
+	#btnContainer {
+		margin-top: 2em;
+	}
+
+	.btn {
+		font-family: 'Roboto', sans-serif;
+		text-decoration: none;
+		padding: 5.33px 12px;
+		font-weight: 700;
+		font-size: 1.1rem;
+		letter-spacing: 0.9px;
+		display: inline-block;
+
+	}
+
+	.followInfo {
+		color: #4E616D;
+		font-size: 0.72em;
+		font-weight: 600;
+		letter-spacing: 1px;
+		margin-bottom: 0.9em;
+	}
+	
+	#atSymbol {
+		margin-left: -10px;
+	}
+
+
+}
+
+@media screen and (max-width: 494px) {
+	
+	#mainDiv {
+		width: 3.6em;
+	}
+
+
+	#userImg {
+		position: absolute;
+		top: 40px;
+		left: 150px;
+	}
+
+	#userInfo {
+		position: absolute;
+		top: 54px;
+		left: 30px;
+	}
+
+	#userNames {
+		position: absolute;
+		top: 200px;
+		left: 170px;
+	}
+
+
+}
+
+	
+
+@media screen and (max-width: 361px) {
+	
+	.btn-space {
+		margin: 0 3px;
+	}
+
+	.btn {
+		padding: 4.7px 10.58px;
+		font-size: 1rem;
+		letter-spacing: 0.9px;
+
+	}
+
+	#currentDisplay {
+		position: absolute;
+		top: 20px;
+		left: 30px;
+	}		
+
+
+
+}
+
+
+@media screen and (max-width: 321px) {
+	
+	#mainDiv {
+		width: 0em;
+	}
+
+
+	#userImg {
+	    width: 130px;
+	    height: 130px;
+	}
+
+	#profileImg {
+		width: 130px;
+		height: 130px;	
+	}
+
+
+
+	#userNames {
+		position: absolute;
+		left: 160px;
+	}
+
+	#headingOne {
+		position: absolute;
+		top: 86px;
+		left: 42px;
+	}
+
+	#currentDisplay {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}	
+
+
+	#atSymbol {
+		margin-left: -10px;
+	}
+
+}
